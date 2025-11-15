@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{margin: 0;
+    padding: auto;}
+    ul{list-style-type: none;
+    background-color: black;
+  overflow: hidden;
+display: grid;
+grid-template-columns: repeat(6, Auto);
+text-align: center;
+justify-content: center;}
+    li a {text-decoration: none;
+    float: left;
+  padding: 14px 16px;
+color: #ffffff;}
+
+a:hover{background: #f1f1f1;
+color: black;}
+
+@media (max-width:700px)
+{
+  ul{grid-template-columns: repeat(1,auto);}
+  
+}
+
+.main-banner{display: grid;
+grid-template-columns: repeat(2,auto);
+max-width: 60%;
+margin: auto;
+}
+
+@media (max-width:700px)
+{
+  .main-banner{grid-template-columns: repeat(1,auto);}
+  
+}
+
+
+.banner-image,{text-align: center;}
+.banner-text{margin-top: 150px;}
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+      <li><a href="">Courses</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="">Register</a></li>
+  </ul>
+
+  <div class="main-banner">
+    
+    <div class="banner-text" >
+      <h1>BEST COMNPUTER INSTITUTE</h1><br><br>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, qui.
+        Culpa nulla odio nam maxime aperiam odit similique quod nesciunt.
+        Aliquid, aliquam nisi officia blanditiis id ducimus nulla recusandae suscipit.
+        Nesciunt tenetur nobis sapiente quibusdam error repellendus reiciendis, eius nam!
+        Facilis praesentium quisquam odio magni nobis rerum minus quia ipsa?
+        Blanditiis veritatis ratione nihil est? Distinctio deleniti officia nobis eveniet.
+        Repudiandae exercitationem amet cum voluptas perferendis iusto iste libero saepe.
+        Atque, culpa eaque rerum accusamus natus rem. Sapiente, eveniet ipsam.
+        Nulla, veniam. Totam, nemo id pariatur tempore neque similique culpa!
+        Accusamus, nobis sint. Vel doloremque, quam aliquid ratione id nostrum!
+      </p>
+<br><br>
+      <button style="background: blue; color: white;">Register</button>
+    </div>
+
+    <div class="banner-image" "><img src="img/banner.gif" alt="" style="max-width: 100%;"></div>
+  </div>
+</body>
+</html>
